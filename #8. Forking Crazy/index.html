@@ -1,0 +1,63 @@
+<div class='fork'></div>
+<div class="teeth">
+  <div class='tooth'></div>
+  <div class='tooth'></div>
+  <div class='tooth'></div>
+  <div class='tooth'></div>
+  <div class='tooth'></div>
+  <div class='tooth'></div>
+  <div class='tooth'></div>
+</div>
+<div class='hand'></div>
+<div class='comp'></div>
+
+<style>
+  body {
+    background: #6592CF;
+  }
+  .fork {
+    width: 140px;
+    height: 140px;
+    background: #060F55;
+    border-radius: 50%;
+    position: absolute;
+    top: 110;
+    left: 130px;
+  }
+  .teeth {
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    display: flex;
+    gap: 0px;
+  }
+  .tooth {
+    height: 110px;
+    width: 20px;
+    border-radius: 
+      50% 50% 50% 50% / 10% 10% 10% 10%;
+  }
+  .tooth:nth-child(even) {
+    background: #6592CF;
+  }
+  .tooth:nth-child(odd) {
+    background: #060F55;
+  }
+  .hand {
+    height:70px;
+    width: 20px;
+    background: #060F55;
+    position: absolute;
+    top: 230px;
+    left: 190px;
+  }
+  .comp {
+    height: 100px;
+    width: 140px;
+    background: #060F55;
+    position: absolute;
+    left: 130px;
+    top: 80px;
+    z-index: -1;
+  }
+</style>

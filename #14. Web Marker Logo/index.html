@@ -1,0 +1,45 @@
+<div class="triangle1"></div>
+<div class="triangle2"></div>
+<div class="triangle3"></div>
+<div class="triangle4"></div>
+<style>
+  body {
+    background: #F2F2B6;
+  }
+  .triangle1,
+  .triangle2,
+  .triangle3,
+  .triangle4 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 
+      75px solid transparent;
+    border-right: 75px solid transparent;
+    border-left: 75px solid transparent;
+  }
+  .triangle1 {
+    border-top: 130px solid #FF6D00;
+    left: 60px;
+    top: 85px;
+  }
+  .triangle2 {
+    border-top: 130px solid #FD4602;
+    left: 80px;
+    top: 85px;
+    z-index: -1;
+  }
+  .triangle3 {
+    border-top: 130px solid #FD4602;
+    left: 170px;
+    top: 10px;
+    transform: rotate(180deg);
+  }
+  .triangle4 {
+    border-top: 130px solid #FF6D00;
+    left: 190px;
+    top: 10px;
+    transform: rotate(180deg);
+    z-index: -1;
+  }
+</style>

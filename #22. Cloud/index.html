@@ -1,0 +1,51 @@
+<div class="less-than"></div>
+<div class="greater-than"></div>
+
+<style>
+  body {
+    background: #222;
+  }
+  .less-than {
+    width: 30px;
+    height: 100px;
+    background: #F2994A;
+    position: absolute;
+    left: 155px;
+    top: 58px;
+    transform: rotate(45deg);
+    border-bottom-left-radius: 10px;
+  }
+  .less-than:after {
+    content: '';
+    width: 30px;
+    height: 100px;
+    background: #2D9CDB;
+    position: absolute;
+    left: 100px;
+    top: 18px;
+    transform: rotate(0deg);
+    border-top-right-radius: 10px;
+  }
+  .greater-than {
+    width: 30px;
+    height: 70px;
+    background: #F2994A;
+    position: absolute;
+    left: 152px;
+    top: 119px;
+    transform: rotate(-45deg);
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 10px;
+  }
+  .greater-than:after {
+    content: '';
+    width: 30px;
+    height: 70px;
+    background: #2D9CDB;
+    position: absolute;
+    left: 52px;
+    top: 40px;
+    border-top-left-radius: 5px;
+  }
+  
+</style>

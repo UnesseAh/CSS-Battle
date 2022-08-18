@@ -1,0 +1,35 @@
+<div></div>
+<style>
+  div {
+    width: 80px;
+    height: 80px;
+    background: #AA445F;
+    border-radius: 50%;
+    margin: 110 auto;
+    box-shadow:
+      0 0 0 30px #F7EC7D,
+      0 0 0 60px #AA445F,
+      0 0 0 200px #E38F66;   
+    position: relative;
+  }
+  div:before {
+   content: '';
+   width: 100px;
+   height: 100px;
+   background: #AA445F;
+   position: absolute;
+   left: -60;
+   top: -60;
+   border-radius: 100% 0 0 / 100% 0;
+  }
+  div:after {
+   content: '';
+   width: 100px;
+   height: 100px;
+   background: #AA445F;
+   position: absolute;
+   left: 40;
+   top: 40;
+   border-radius: 0 0 100% / 0 0 100% ;
+  }
+</style>

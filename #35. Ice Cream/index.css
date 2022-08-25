@@ -1,0 +1,53 @@
+<div class='tri-1'></div>
+<div class='tri-2'></div>
+<div class='tri-3'></div>
+
+<style>
+  body {
+    background: #007065;
+    margin: 0;
+  }
+  .tri-1 {
+    position: absolute;
+    left: 80;
+    top: 40;
+    width: 0;
+    height: 0;
+    border-right:
+      120px solid transparent;
+    border-left:
+      120px solid transparent;
+    border-bottom: 120px solid #FFEECF;
+    transform: rotateX(35deg);
+  }
+
+    .tri-2 {
+    position: absolute;
+    left: 80;
+    top: 90;
+    width: 0;
+    height: 0;
+    border-right:
+      120px solid transparent;
+    border-left:
+      120px solid transparent;
+    border-bottom: 120px solid #F5C181;
+      z-index: -1;
+          transform: rotateX(35deg);
+  }
+
+    .tri-3 {
+    position: absolute;
+    left: 80;
+    top: 140;
+    width: 0;
+    height: 0;
+    border-right:
+      120px solid transparent;
+    border-left:
+      120px solid transparent;
+    border-bottom: 120px solid #00A79D;
+    z-index: -2;
+    transform: rotateX(35deg);
+  }
+</style>
